@@ -8,7 +8,8 @@ var require = {
                 exports: '_'
             },
             backbone: {
-                exports: 'Backbone'
+                exports: 'Backbone',
+                deps: ['underscore', 'jquery']
             },
             'jquery.ui.widget': {
                 deps: ['jquery']

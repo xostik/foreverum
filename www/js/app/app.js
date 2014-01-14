@@ -1,5 +1,5 @@
-define(['jquery', 'underscore', 'fileuploader'], function($, _){
-    $('#fileupload').fileupload({
+define(['backbone', 'jquery', 'underscore'], function(Backbone, $, _){
+    /*$('#fileupload').fileupload({
         url: '/php-plagins/jQuery-File-Upload-master/index.php',
         dataType: 'json',
         done: function (e, data) {
@@ -14,7 +14,24 @@ define(['jquery', 'underscore', 'fileuploader'], function($, _){
                 progress + '%'
             );
         }
-    });
+    });              */
 
+    window.User = Backbone.Model.extend({
+        defaults: {
+            title: '',
+            completed: 0,
+            id: ''
+        },
+        updateUser: function(){
+             alert('user');
+        }
+    } );
+
+
+    window.OtherUser = window.User.extend({
+        updateUser: function(){
+            alert('OtherUser');
+        }
+    });
 });
 

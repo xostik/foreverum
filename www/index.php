@@ -12,7 +12,13 @@
     </span>
 
 
-
+    <script>
+        var serverData = {
+            user: {
+                isAuthorization: false
+            }
+        };
+    </script>
     <script src="/js/app/config.js"></script>
     <script src="/js/lib/require/require.js"></script>
     <script>
