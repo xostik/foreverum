@@ -14,8 +14,19 @@
 
     <script>
         var serverData = {
-            user: {
-                isAuthorization: false
+            users: {
+                2: {
+                    id: 5
+                    isOnline: false
+                },
+                5: {
+                    id: 5
+                    isOnline: true
+                },
+                current{
+                    id: 5
+                    isAuthorization: false
+                }
             }
         };
     </script>

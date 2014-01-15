@@ -1,5 +1,7 @@
 var require = {
         baseUrl: 'js',
+
+
         shim: {
             jquery: {
                 exports: 'jquery'
@@ -21,7 +23,11 @@ var require = {
 
 
         paths: {
-            app: 'app/app', // старт приложения
+            'app': 'app/app', // старт приложения
+
+            'user': 'app/user/user',                //  работа с пользователями
+            'user-models': 'user-models',           //  модели пользователей
+            'user-tasks': 'app/user/user-tasks',    //  выполнение запросов о пользователях к серверу
 
             // вспомогательные скрипты
             'jquery': 'http://code.jquery.com/jquery-1.10.2.min',
