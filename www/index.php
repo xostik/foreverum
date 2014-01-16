@@ -25,7 +25,7 @@
                 },
                 current{
                     id: 5
-                    isAuthorization: false
+                    isAuthorized: false
                 }
             }
         };

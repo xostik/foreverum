@@ -1,4 +1,4 @@
-define(['backbone', 'jquery', 'user-models'], function(Backbone, $, Models){
+define(['backbone', 'jquery', 'user-models', 'user-tasks'], function(Backbone, $, Models, userTasks){
 
     // --------------
 
@@ -9,31 +9,32 @@ define(['backbone', 'jquery', 'user-models'], function(Backbone, $, Models){
          */
     };
 
-
-    function getSomeUser(id, constructor){
-        if(!usersCache[id]){
-            var promiseUserData = $.Deferred();
-
-            promiseUserData.done(function(data){
-
-            });
-            //initingDataPromise
-        }
-    }
-
     // --------------
 
     function getCurrentUser(){
         if(!usersCache.current){
-            //if
-            usersCache.current = new CurrentUser();
+            var promiseUserData = userTasks.getCurrentUserData();
+
+            usersCache.current = new CurrentUser({
+                promiseInitData: promiseUserData
+            });
         }
+
+        return usersCache.current;
     }
 
     // --------------
 
-    function getUser(){
+    function getUser(uid){
+        if(!usersCache[uid]){
+            var promiseUserData = userTasks.getUserData();
 
+            usersCache[uid] = new User({
+                promiseInitData: promiseUserData
+            });
+        }
+
+        return usersCache[uid];
     }
 
     // --------------

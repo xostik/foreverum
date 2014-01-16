@@ -15,6 +15,8 @@ define(['jquery'], function($){
                 });
             } , 30);
         }
+
+        return userDataPromise;
     }
 
     // --------------
@@ -27,12 +29,14 @@ define(['jquery'], function($){
         }else{
             setTimeout(function(){
                 userDataPromise.resolve({
-                    userName: 'petr',
+                    userName: 'jina',
                     id: uid,
                     isOnline: true
                 });
             } , 30);
         }
+
+        return userDataPromise;
     }
 
     // --------------

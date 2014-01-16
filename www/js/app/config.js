@@ -23,10 +23,11 @@ var require = {
 
 
         paths: {
-            'app': 'app/app', // старт приложения
+            'app': 'app/app',       // старт приложения
+            'routes': 'app/routes', // роуты приложения
 
             'user': 'app/user/user',                //  работа с пользователями
-            'user-models': 'user-models',           //  модели пользователей
+            'user-models': 'app/user/user-models',  //  модели пользователей
             'user-tasks': 'app/user/user-tasks',    //  выполнение запросов о пользователях к серверу
 
             // вспомогательные скрипты

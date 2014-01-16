@@ -6,13 +6,14 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389771153112" ignored="false" />
     <file path="/main.less" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389113791831" ignored="false" />
-    <file path="/app.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389678371783" ignored="false" />
-    <file path="/config.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389770009788" ignored="false" />
+    <file path="/app.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389873751619" ignored="false" />
+    <file path="/config.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389872651751" ignored="false" />
     <file path="/a.dummy" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389287012534" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389770029518" ignored="false" />
-    <file path="/user.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389780412300" ignored="false" />
-    <file path="/user-tasks.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389789571369" ignored="false" />
-    <file path="/user-models.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389779875572" ignored="false" />
+    <file path="/user.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389852762339" ignored="false" />
+    <file path="/user-tasks.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389850221788" ignored="false" />
+    <file path="/user-models.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389867333798" ignored="false" />
+    <file path="/router.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389873939248" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
       <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+            <state line="29" column="43" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,8 +45,11 @@
       <file leaf-file-name="user-models.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/user/user-models.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="354" selection-end="372" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="39" column="22" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1389867380775" expanded="true" signature="77:1307" placeholder="{...}" />
+                <marker date="1389867380775" expanded="true" signature="117:1079" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +57,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+            <state line="0" column="100" selection-start="94" selection-end="100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="29" selection-start="91" selection-end="91" vertical-scroll-proportion="0.078071184">
               <folding />
             </state>
           </provider>
@@ -62,16 +75,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="22" selection-start="267" selection-end="277" vertical-scroll-proportion="0.0">
+            <state line="27" column="32" selection-start="577" selection-end="589" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-tasks.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user-tasks.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/user/user-tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="112" selection-end="112" vertical-scroll-proportion="0.078071184">
+            <state line="44" column="26" selection-start="1065" selection-end="1083" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,16 +93,7 @@
       <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/user/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="98" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/less/main.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+            <state line="13" column="27" selection-start="273" selection-end="287" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,12 +123,14 @@
         <option value="$PROJECT_DIR$/js/lib/backbone/backbone.js" />
         <option value="$PROJECT_DIR$/js/lib/require/require.js" />
         <option value="$PROJECT_DIR$/js/lib/underscore/underscore.js" />
-        <option value="$PROJECT_DIR$/js/app/app.js" />
-        <option value="$PROJECT_DIR$/js/app/config.js" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/app/user/user-models.js" />
-        <option value="$PROJECT_DIR$/js/app/user/user.js" />
         <option value="$PROJECT_DIR$/js/app/user/user-tasks.js" />
+        <option value="$PROJECT_DIR$/js/app/user/user.js" />
+        <option value="$PROJECT_DIR$/js/app/user/user-models.js" />
+        <option value="$PROJECT_DIR$/js/app/router.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/app/config.js" />
+        <option value="$PROJECT_DIR$/js/app/app.js" />
+        <option value="$PROJECT_DIR$/js/app/routes.js" />
       </list>
     </option>
   </component>
@@ -183,7 +189,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,6 +307,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,6 +319,7 @@
       <recent name="Z:\home\foreverum.ru\www\js\app\user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\home\foreverum.ru\www\js\app" />
       <recent name="Z:\home\test1.ru\www\js\lib\require" />
       <recent name="Z:\home\test1.ru\www\js\lib\angular" />
     </key>
@@ -421,13 +428,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/projects/winelovers/WineLovers/Content/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="35" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
@@ -468,13 +468,6 @@
         <state line="171" column="24" selection-start="7631" selection-end="7631" vertical-scroll-proportion="-1.0703703" />
       </provider>
     </entry>
-    <entry file="file://C:/projects/winelovers/WineLovers/Content/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/file-uploader/jquery.fileupload.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="13" selection-start="519" selection-end="535" vertical-scroll-proportion="0.33333334">
@@ -482,51 +475,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/user/user-models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="22" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1389867380775" expanded="true" signature="77:1307" placeholder="{...}" />
+            <marker date="1389867380775" expanded="true" signature="117:1079" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/projects/winelovers/WineLovers/Content/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="267" selection-end="277" vertical-scroll-proportion="0.0">
+        <state line="1" column="21" selection-start="44" selection-end="44" vertical-scroll-proportion="0.020094562">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/user/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="98" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/user/user-models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="354" selection-end="372" vertical-scroll-proportion="0.0">
+        <state line="13" column="27" selection-start="273" selection-end="287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/user/user-tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="112" selection-end="112" vertical-scroll-proportion="0.078071184">
+        <state line="44" column="26" selection-start="1065" selection-end="1083" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="32" selection-start="577" selection-end="589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="43" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="100" selection-start="94" selection-end="100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="91" selection-end="91" vertical-scroll-proportion="0.078071184">
           <folding />
         </state>
       </provider>

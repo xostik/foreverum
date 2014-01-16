@@ -1,4 +1,4 @@
-define(['backbone', 'jquery', 'underscore'], function(Backbone, $, _){
+define(['backbone', 'jquery', 'underscore', 'user', 'routes'], function(Backbone, $, _, user, routes){
     /*$('#fileupload').fileupload({
         url: '/php-plagins/jQuery-File-Upload-master/index.php',
         dataType: 'json',
@@ -16,22 +16,19 @@ define(['backbone', 'jquery', 'underscore'], function(Backbone, $, _){
         }
     });              */
 
-    window.User = Backbone.Model.extend({
-        defaults: {
-            title: '',
-            completed: 0,
-            id: ''
-        },
-        updateUser: function(){
-             alert('user');
-        }
-    } );
+    var Router = Backbone.Router.extend({
 
+        }),
+        router = new Router(),
+        currentUser = user.getCurrentUser();
 
-    window.OtherUser = window.User.extend({
-        updateUser: function(){
-            alert('OtherUser');
+    currentUser.whenReady(function(readyUser){
+        if(readyUser.isAuthorized || location.pathname == '/'){
+            Backbone.history.start({pushState: true});
+        }else{
+            location.href = '/';
         }
     });
+
 });
 
