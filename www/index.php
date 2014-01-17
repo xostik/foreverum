@@ -16,15 +16,15 @@
         var serverData = {
             users: {
                 2: {
-                    id: 5
+                    id: 5,
                     isOnline: false
                 },
                 5: {
-                    id: 5
+                    id: 5,
                     isOnline: true
                 },
-                current{
-                    id: 5
+                current:{
+                    id: 5,
                     isAuthorized: false
                 }
             }

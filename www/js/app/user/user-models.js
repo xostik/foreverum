@@ -12,20 +12,16 @@ define(['backbone', 'jquery', 'user-tasks'], function(Backbone, $, userTasks){
 
         initialize: function(){
             var _this = this;
-            this.promiseInitData.done(function(data){
+            this.get('promiseInitData').done(function(data){
                 _this.handlingData(data);
             });
-
         },
 
         // -------------------------------------------------
 
         handlingData: function(data){
-            for(var k in data){
-                this.set({k: data[k]});
-            }
-
-            _this.onInit.resolved(_this);
+            this.set(data);
+            this.get('onInit').resolve(this);
         },
 
         // -------------------------------------------------
@@ -45,6 +41,9 @@ define(['backbone', 'jquery', 'user-tasks'], function(Backbone, $, userTasks){
 
     var CurrentUser = User.extend({
         defaults: {
+            promiseInitData: undefined,
+            onInit: $.Deferred(),
+            id: -1,
             isOnline: true
         }
     });

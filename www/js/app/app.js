@@ -17,7 +17,7 @@ define(['backbone', 'jquery', 'underscore', 'user', 'routes'], function(Backbone
     });              */
 
     var Router = Backbone.Router.extend({
-
+            routes: routes
         }),
         router = new Router(),
         currentUser = user.getCurrentUser();
@@ -25,6 +25,7 @@ define(['backbone', 'jquery', 'underscore', 'user', 'routes'], function(Backbone
     currentUser.whenReady(function(readyUser){
         if(readyUser.isAuthorized || location.pathname == '/'){
             Backbone.history.start({pushState: true});
+            //router.navigate('user/10', {trigger: true});
         }else{
             location.href = '/';
         }

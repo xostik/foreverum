@@ -1,5 +1,5 @@
 var require = {
-        baseUrl: 'js',
+        baseUrl: '/js',
 
 
         shim: {
@@ -25,6 +25,9 @@ var require = {
         paths: {
             'app': 'app/app',       // старт приложения
             'routes': 'app/routes', // роуты приложения
+
+            'start': 'app/bootstrap-states/start',
+            'user-page': 'app/bootstrap-states/user-page',
 
             'user': 'app/user/user',                //  работа с пользователями
             'user-models': 'app/user/user-models',  //  модели пользователей
