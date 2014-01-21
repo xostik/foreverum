@@ -28,6 +28,15 @@ var require = {
 
             'start': 'app/bootstrap-states/start',
             'user-page': 'app/bootstrap-states/user-page',
+            'error': 'app/bootstrap-states/error',
+
+            'layout-manager': 'app/base-views/layout-manager',
+            'abstract-layer': 'app/base-views/abstract-layer',
+            'abstract-region': 'app/base-views/abstract-region',
+
+            'simple-layout': 'app/views/layouts/simple-layout',
+
+            'start-region': 'app/views/shared/abstract-region',
 
             'user': 'app/user/user',                //  работа с пользователями
             'user-models': 'app/user/user-models',  //  модели пользователей
