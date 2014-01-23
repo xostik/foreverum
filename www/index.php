@@ -5,12 +5,9 @@
 </head>
 <body>
 
-
-    <span class="">
-        <span>Select files...</span>
-        <input id="fileupload" type="file" name="files[]" multiple>
-    </span>
-
+    <div id="base-layout-wrap">
+        <div id="singleton-region"></div>
+    </div>
 
     <script>
         var serverData = {
@@ -35,5 +32,6 @@
     <script>
         require(['app'], function(app){});
     </script>
+
 </body>
 </html>

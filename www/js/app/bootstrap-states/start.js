@@ -1,9 +1,14 @@
-define(['simple-layout', 'start-region', 'layer-manager'], function(SimpleLayout, StartRegion, layerManager){
-    var layout = new SimpleLayout(),
-        region = new StartRegion();
+define(['simple-layout', 'start-region', 'start-region-view', 'layout-manager'], function(SimpleLayout, StartRegion, StartRegionView, layoutManager){
+    var layoutData = {
+        layout: SimpleLayout,
+        regions: {
+            'singleton-region': {
+                model: StartRegion.getStartRegionModel(),
+                view: StartRegionView
+            }
+        }
+    };
 
-    layout.setRegion('singleton-region', region);
-
-    layerManager.updateLayout(layout);
+    layoutManager.updateLayout(layoutData);
 });
 

@@ -25,24 +25,34 @@ var require = {
         paths: {
             'app': 'app/app',       // старт приложения
             'routes': 'app/routes', // роуты приложения
+            'router': 'app/router', // роутер приложения
 
             'start': 'app/bootstrap-states/start',
+            'terminal': 'app/bootstrap-states/terminal',
             'user-page': 'app/bootstrap-states/user-page',
             'error': 'app/bootstrap-states/error',
 
             'layout-manager': 'app/base-views/layout-manager',
-            'abstract-layer': 'app/base-views/abstract-layer',
+            'abstract-layout': 'app/base-views/abstract-layout',
             'abstract-region': 'app/base-views/abstract-region',
 
-            'simple-layout': 'app/views/layouts/simple-layout',
+            'simple-layout': 'app/base-views/layouts/simple-layout',
 
-            'start-region': 'app/views/shared/abstract-region',
+            'start-region': 'app/base-entities/start-region',
+            'terminal-region': 'app/base-entities/terminal-region',
+
+            'start-region-view': 'app/base-views/regions/start-region',
+            'terminal-region-view': 'app/base-views/regions/terminal-region',
 
             'user': 'app/user/user',                //  работа с пользователями
             'user-models': 'app/user/user-models',  //  модели пользователей
             'user-tasks': 'app/user/user-tasks',    //  выполнение запросов о пользователях к серверу
 
-            // вспомогательные скрипты
+            // УТИЛИТЫ
+            'inheritance': 'app/utils/inheritance',
+
+
+            // СТОРОННИЕ СКРИПТЫ
             'jquery': 'http://code.jquery.com/jquery-1.10.2.min',
             'text': 'lib/require/text.require',
             'underscore': 'lib/underscore/underscore',
@@ -59,7 +69,9 @@ var require = {
 
     requirePaths = {
         // шаблоны
-        //'custom-select.tpl': 'text!Content/templates/site/custom-select.tpl.html',
+        'simple-layout.tpl': 'text!/js/app/base-templates/simple-layout.tpl.html',
 
+        'start-region.tpl': 'text!/js/app/base-templates/start-region.tpl.html',
+        'terminal-region.tpl': 'text!/js/app/base-templates/terminal-region.tpl.html'
 
     };

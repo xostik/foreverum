@@ -1,8 +1,9 @@
 define([], function(){
     var routesList = {
             '': 'start',
-            'user/:uid': 'user-page',
-            '*': 'error'
+            'terminal': 'terminal',
+            'user/:uid': 'user-page'//,
+            //'*': 'error'
         }
         result = {};
 

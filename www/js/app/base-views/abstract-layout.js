@@ -1,26 +1,21 @@
 define([], function(){
     var AbstractLayout = function(){
-        this.layoutName = 'Abstract layout';
-        this.$root = $('<div>');
+        this.$root = $('<div></div>');
 
-        this.regions = {
+        this.regionList = {
             //'some-region-name': undefined|regionInstance, ...
         };
     };
 
-    // --------------------
-
-    AbstractLayout.prototype.layoutName = function(){
-         return this.layoutName;
-    };
+    AbstractLayout.prototype.layoutName = 'abstract-layout';
 
     // --------------------
 
     AbstractLayout.prototype.regions = function(){
         var result = {};
-        for(var k in this.regions){
-            if(this.regions[k]){
-                result[k] = this.regions[k];
+        for(var k in this.regionList){
+            if(this.regionList[k]){
+                result[k] = this.regionList[k];
             }
         }
         return result;
@@ -41,17 +36,17 @@ define([], function(){
 
     AbstractLayout.prototype.enableRegions = function(regions){
         for(var k in regions){
-            if(!this.regions.hasOwnProperty(k)){
+            if(!this.regionList.hasOwnProperty(k)){
                 throw "AbstractLayout.enableRegions - wrong region name: " + k;
             }
 
-            if(this.regions[k]){
-                this.regions[k].destroy();
+            if(this.regionList[k]){
+                this.regionList[k].destroy();
             }
 
-            this.regions[k] = regions[k];
+            this.regionList[k] = regions[k];
 
-            $('#'+k, this.$root).html(this.regions[k].render());
+            this.renderRegion(k);
         }
     };
 
@@ -59,12 +54,12 @@ define([], function(){
 
     AbstractLayout.prototype.disableRegions = function(regions){
         for(var k in regions){
-            if(!this.regions.hasOwnProperty(k)){
+            if(!this.regionList.hasOwnProperty(k)){
                 throw "AbstractLayout.enableRegions - wrong region name: " + k;
             }
 
-            if(this.regions[k]){
-                this.regions[k].destroy();
+            if(this.regionList[k]){
+                this.regionList[k].destroy();
             }
         }
     };
@@ -74,6 +69,13 @@ define([], function(){
 
     AbstractLayout.prototype.render = function(){
         return this.$root;
+    };
+
+    // --------------------
+
+    AbstractLayout.prototype.renderRegion = function(regionName){
+        $('#'+regionName, this.$root)
+            .html(this.regionList[regionName].render());
     };
 
     // --------------------

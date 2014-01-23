@@ -1,9 +1,14 @@
 define(['backbone'], function(Backbone){
     var AbstractRegion = Backbone.View.extend({
         destroy: function(){
-            throw 'Not implemented destroy in Region view';
+            throw 'AbstractRegion: Not implemented destroy() in Region view';
+        },
+        render: function(){
+            throw 'AbstractRegion: Not implemented render() in Region view';
         }
     });
+
+    AbstractRegion.prototype.regionName = 'abstract-region';
 
     // --------------------
 
