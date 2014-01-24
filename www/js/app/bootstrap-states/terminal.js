@@ -11,5 +11,5 @@ define(['simple-layout', 'terminal-region', 'terminal-region-view', 'layout-mana
         };
 
         layoutManager.updateLayout(layoutData);
-    }
+    };
 });

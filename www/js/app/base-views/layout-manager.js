@@ -6,7 +6,6 @@ define(['backbone', 'jquery'], function(Backbone, $){
 
     function updateLayout( newLayoutData ){
         var layout;
-        console.log('!! ');
         if( !currentLayout ){
             layout = createLayoutByLayoutData( newLayoutData );
             enableLayout( layout );

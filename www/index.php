@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/styles/css/main.css">
 </head>
 <body>

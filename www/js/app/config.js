@@ -30,6 +30,7 @@ var require = {
             'start': 'app/bootstrap-states/start',
             'terminal': 'app/bootstrap-states/terminal',
             'user-page': 'app/bootstrap-states/user-page',
+            'ship': 'app/bootstrap-states/ship',
             'error': 'app/bootstrap-states/error',
 
             'layout-manager': 'app/base-views/layout-manager',
@@ -37,12 +38,15 @@ var require = {
             'abstract-region': 'app/base-views/abstract-region',
 
             'simple-layout': 'app/base-views/layouts/simple-layout',
+            'common-layout': 'app/base-views/layouts/common-layout',
 
             'start-region': 'app/base-entities/start-region',
             'terminal-region': 'app/base-entities/terminal-region',
+            'ship-region': 'app/base-entities/ship-region',
 
             'start-region-view': 'app/base-views/regions/start-region',
             'terminal-region-view': 'app/base-views/regions/terminal-region',
+            'ship-region-view': 'app/base-views/regions/ship-region',
 
             'user': 'app/user/user',                //  работа с пользователями
             'user-models': 'app/user/user-models',  //  модели пользователей

@@ -9,15 +9,17 @@ define([
     ShipRegionView,
     layoutManager
 ){
-    var layoutData = {
-        layout: CommonLayout,
-        regions: {
-            'main-region': {
-                model: ShipRegion.getModel(),
-                view: ShipRegionView
+    return function(){
+        var layoutData = {
+            layout: CommonLayout,
+            regions: {
+                'main-region': {
+                    model: ShipRegion.getModel(),
+                    view: ShipRegionView
+                }
             }
-        }
-    };
+        };
 
-    layoutManager.updateLayout(layoutData);
+        layoutManager.updateLayout(layoutData);
+    };
 });

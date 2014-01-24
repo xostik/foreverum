@@ -11,6 +11,6 @@ define(['simple-layout', 'start-region', 'start-region-view', 'layout-manager'],
         };
 
         layoutManager.updateLayout(layoutData);
-    }
+    };
 });
 
