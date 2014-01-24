@@ -13,7 +13,9 @@ define([], function(){
 
     function getRouteFunction(routeSource){
         return function(){
-            require([routeSource], function(){});
+            require([routeSource], function(run){
+                run();
+            });
         }
     }
 

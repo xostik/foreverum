@@ -13,23 +13,23 @@
     <file path="/user.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389938358394" ignored="false" />
     <file path="/user-tasks.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389939173361" ignored="false" />
     <file path="/user-models.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1389940386267" ignored="false" />
-    <file path="/router.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390470307085" ignored="false" />
-    <file path="/start.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390389711928" ignored="false" />
+    <file path="/router.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390542895937" ignored="false" />
+    <file path="/start.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390547881318" ignored="false" />
     <file path="/bootstrap-manager.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390285687069" ignored="false" />
     <file path="/abstract-layout.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390476718643" ignored="false" />
     <file path="/abstract-region.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390386375992" ignored="false" />
     <file path="/inheritance.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390303845161" ignored="false" />
     <file path="/start-region.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390472046133" ignored="false" />
     <file path="/simple-layout.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390457038363" ignored="false" />
-    <file path="/layout-manager.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390479707609" ignored="false" />
+    <file path="/layout-manager.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390543953281" ignored="false" />
     <file path="$PROJECT_DIR$/js/lib/backbone/backbone.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390388932202" ignored="false" />
     <file path="/start-page.tpl.html" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390457233838" ignored="false" />
     <file path="/start-region.tpl.html" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390469198491" ignored="false" />
     <file path="/start-region.less" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390468411314" ignored="false" />
     <file path="/layouts.less" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390465551583" ignored="false" />
     <file path="/a.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390469971235" ignored="false" />
-    <file path="/routes.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390472133851" ignored="false" />
-    <file path="/terminal.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390472752015" ignored="false" />
+    <file path="/routes.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390547839281" ignored="false" />
+    <file path="/terminal.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390547921736" ignored="false" />
     <file path="/terminal-region.js" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390473871866" ignored="false" />
     <file path="/terminal-region.tpl.html" changelist="56a42e95-27f3-4a06-bc0e-707e02dcff85" time="1390475112305" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,16 +54,34 @@
       <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="14" column="26" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terminal.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="start-region.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/base-views/regions/start-region.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="44" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="30" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terminal.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app/bootstrap-states/terminal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+            <state line="12" column="47" selection-start="511" selection-end="511" vertical-scroll-proportion="0.23421355">
               <folding />
             </state>
           </provider>
@@ -81,16 +99,16 @@
       <file leaf-file-name="layout-manager.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/base-views/layout-manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="6" column="43" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="29" selection-start="841" selection-end="856" vertical-scroll-proportion="0.4489093">
+            <state line="23" column="29" selection-start="841" selection-end="856" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +126,7 @@
       <file leaf-file-name="start-region.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/less/start-region.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="-3.4">
+            <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,22 +142,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/styles/less/main.less" />
         <option value="$PROJECT_DIR$/styles/less/start-region.less" />
         <option value="$PROJECT_DIR$/js/app/base-templates/start-region.tpl.html" />
         <option value="$PROJECT_DIR$/js/app/1111.js" />
-        <option value="$PROJECT_DIR$/js/app/router.js" />
-        <option value="$PROJECT_DIR$/js/app/base-views/regions/start-region.js" />
-        <option value="$PROJECT_DIR$/js/app/bootstrap-states/terminal.js" />
         <option value="$PROJECT_DIR$/js/app/base-entities/terminal-region.js" />
         <option value="$PROJECT_DIR$/js/app/base-templates/terminal-region.tpl.html" />
         <option value="$PROJECT_DIR$/js/app/config.js" />
-        <option value="$PROJECT_DIR$/js/app/routes.js" />
         <option value="$PROJECT_DIR$/js/app/base-views/regions/terminal-region.js" />
         <option value="$PROJECT_DIR$/js/app/base-views/abstract-layout.js" />
         <option value="$PROJECT_DIR$/js/app/base-views/layouts/simple-layout.js" />
-        <option value="$PROJECT_DIR$/js/app/base-views/layout-manager.js" />
         <option value="$PROJECT_DIR$/js/app/app.js" />
+        <option value="$PROJECT_DIR$/js/app/router.js" />
+        <option value="$PROJECT_DIR$/js/app/base-views/regions/start-region.js" />
+        <option value="$PROJECT_DIR$/js/app/base-views/layout-manager.js" />
+        <option value="$PROJECT_DIR$/js/app/routes.js" />
+        <option value="$PROJECT_DIR$/js/app/bootstrap-states/start.js" />
+        <option value="$PROJECT_DIR$/js/app/bootstrap-states/terminal.js" />
       </list>
     </option>
   </component>
@@ -198,6 +216,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,31 +399,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base-templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,8 +408,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -439,7 +435,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -478,9 +474,8 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49721295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12387981" sideWeight="0.50278705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1676331" sideWeight="0.50278705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -490,6 +485,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49721295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -556,44 +552,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="451" selection-end="451" vertical-scroll-proportion="0.4293915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/base-entities/start-region.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="0" selection-end="223" vertical-scroll-proportion="0.21469575">
-          <folding />
-        </state>
+        <state line="11" column="39" selection-start="0" selection-end="223" vertical-scroll-proportion="0.21469575" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/base-entities/terminal-region.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="208" selection-end="208" vertical-scroll-proportion="0.11710677">
-          <folding />
-        </state>
+        <state line="6" column="20" selection-start="208" selection-end="208" vertical-scroll-proportion="0.11710677" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/base-templates/start-region.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/base-views/regions/terminal-region.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="25" selection-start="687" selection-end="687" vertical-scroll-proportion="0.5660161">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/base-views/regions/start-region.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="429" selection-end="429" vertical-scroll-proportion="0.27324915">
           <folding />
         </state>
       </provider>
@@ -607,23 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/base-templates/terminal-region.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/bootstrap-states/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="286" selection-end="286" vertical-scroll-proportion="0.09758898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/bootstrap-states/terminal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/base-views/abstract-layout.js">
@@ -642,28 +602,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/less/start-region.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/base-views/layout-manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="29" selection-start="841" selection-end="856" vertical-scroll-proportion="0.4489093">
+        <state line="23" column="29" selection-start="841" selection-end="856" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/base-views/regions/start-region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="44" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/base-views/layout-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="43" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/bootstrap-states/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="47" selection-start="490" selection-end="490" vertical-scroll-proportion="0.23421355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/bootstrap-states/terminal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="47" selection-start="511" selection-end="511" vertical-scroll-proportion="0.23421355">
           <folding />
         </state>
       </provider>
