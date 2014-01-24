@@ -11,7 +11,7 @@ define(['abstract-region', 'underscore', requirePaths['terminal-region.tpl'], 'r
         },
 
         sendCommand: function(e){
-            alert('sendCommand');
+            router.getRouter().navigate('ship', {trigger: true});
         },
 
         destroy: function(){

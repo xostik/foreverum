@@ -70,8 +70,10 @@ var require = {
     requirePaths = {
         // шаблоны
         'simple-layout.tpl': 'text!/js/app/base-templates/simple-layout.tpl.html',
+        'common-layout.tpl': 'text!/js/app/base-templates/common-layout.tpl.html',
 
         'start-region.tpl': 'text!/js/app/base-templates/start-region.tpl.html',
-        'terminal-region.tpl': 'text!/js/app/base-templates/terminal-region.tpl.html'
+        'terminal-region.tpl': 'text!/js/app/base-templates/terminal-region.tpl.html',
+        'ship-region.tpl': 'text!/js/app/base-templates/ship-region.tpl.html'
 
     };

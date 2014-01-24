@@ -10,12 +10,19 @@ define(['abstract-region', 'underscore', requirePaths['start-region.tpl'], 'rout
             'submit': 'startGame'
         },
 
+        initialize: function(){
+            $(window).on('keydown', this.startGame);
+        },
+
         startGame: function(e){
             e.preventDefault();
             router.getRouter().navigate('terminal', {trigger: true});
         },
 
-        destroy: function(){},
+        destroy: function(){
+            this.$el.off();
+            $(window).off('keydown', this.startGame);
+        },
 
         render: function(){
             this.$el.html(this.template({}));
